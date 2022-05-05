@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+  text-align: center;
+  
+}
+#nav a {
+  font-weight: bold;
+  color: #3f3d3d;
+  text-decoration: underline;
+}
+#nav p {
+  font-weight: bold;
+  color: #b3f1c8;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+#nav a.router-link-exact-active {
+  color: #b3f1c8;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  user-select: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background: #02c242;
+  box-shadow: 0px 0px 4px black;
+  height: 2.5rem;
+  width: 13rem;
+  transition: 0.1s ease-in-out;
+}
+
+input {
+  border-radius: 6px;
+}
+button {
+  cursor: pointer;
+}
